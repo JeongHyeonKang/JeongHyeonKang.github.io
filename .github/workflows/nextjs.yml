@@ -79,7 +79,7 @@ jobs:
       #  run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - uses: actions/download-artifact@master
         with:
-      #    name: page
+          name: page
           path: .
       - uses: actions/configure-pages@v1
       - name: Upload artifact
